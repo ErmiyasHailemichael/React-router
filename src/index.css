@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content:space-around;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.stocks{
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+}
