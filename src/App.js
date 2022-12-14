@@ -15,6 +15,7 @@ function App() {
         <Route path='/' element={< Home />} />
         <Route path='/about' element={< About />} />
         <Route path='/stocks' element={<Stocks />} />
+        {/* <Route path='/stocks/:symbol' element={<Stocks />} /> */}
       </Routes>
     </div>
   );

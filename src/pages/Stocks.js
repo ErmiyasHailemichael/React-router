@@ -23,8 +23,9 @@ function Stocks() {
         stocks.map((stockk) => {
 
              return (
-                <Link to={`/price/${stockk.symbol}`}>
-                    <h1>{stockk.name}</h1>
+                <Link to={`${stockk.symbol}`}>
+                    <h2>{stockk.name}</h2>
+                    {/* <h4>{stockk.price}</h4> */}
                 </Link>
              )
         })
