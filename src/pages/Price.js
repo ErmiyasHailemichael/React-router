@@ -22,11 +22,11 @@ function Price() {
   useEffect(() => {
     getPrices();
   }, []);
-  console.log(prices[0])
+  console.log(prices[0].symbol)
   return (
     <div className="price">
       {!prices === "null" ? (
-        <h2>Waiting...</h2>
+        <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px"}}></i>
       ) : (
         <div>
           <h1>{prices[0].symbol}</h1>
